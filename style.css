@@ -42,7 +42,7 @@ form{
     display: flex;
     gap: 50px;
     padding: 8px;
-    margin: 5px;
+    margin: -9px;
 }
 
     
@@ -55,7 +55,7 @@ form{
 #last_name{
     padding:8px 12px ;
     margin: 5px;
-    width: 100%;
+    width: 107%;
 
    
 }
@@ -76,7 +76,7 @@ form{
     background-color: rgb(166, 105, 224);
     color: white;
     padding: 9px 13px;
-    width: 98%;
+    width: 100%;
 }
 .password-toggle-icon{
     float: right;
@@ -117,18 +117,24 @@ form{
     justify-content: center;
     display: flex;
     gap: 3cm;
+    padding: 0 0 100px 0;
     }
     #google{
         width: 40px;
         height: 40px;
     }
     #facebook{
-        width: 40px;
-        height: 40px;   
+        width:55px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 5px;
+    
     }
     #apple{
-        width: 40px;
+        width: 50px;
         height: 40px;
+        border: 1px solid white;
+        border-radius: 5px;
     }
 a{
     text-decoration: none;
